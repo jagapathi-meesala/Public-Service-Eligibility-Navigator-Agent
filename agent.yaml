@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: public-service-eligibility-navigator
+version: "1.0.0"
+description: Helps users organize information about public-service programs and preliminarily compare supplied eligibility criteria without making official determinations.
+author: Agent Passport Builder
+license: MIT
+tags:
+  - public-services
+  - eligibility
+  - benefits-navigation
+skills:
+  - program-criteria-review
+  - eligibility-screening
+  - application-preparation
+tools:
+  - review-program-criteria
+  - screen-eligibility
+  - prepare-application-checklist
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30

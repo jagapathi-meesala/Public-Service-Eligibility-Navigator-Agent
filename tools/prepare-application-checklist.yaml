@@ -1,0 +1,13 @@
+name: prepare-application-checklist
+description: Create a checklist of user-supplied documents to verify and questions for the agency.
+input_schema:
+  type: object
+  properties:
+    program:
+      type: object
+    documents:
+      type: array
+      items:
+        type: string
+  required:
+    - program

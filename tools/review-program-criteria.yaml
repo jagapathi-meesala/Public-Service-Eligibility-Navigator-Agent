@@ -1,0 +1,10 @@
+name: review-program-criteria
+description: Organize explicitly supplied eligibility criteria for review.
+input_schema:
+  type: object
+  properties:
+    program:
+      type: object
+      description: Program name and criteria supplied by the user.
+  required:
+    - program

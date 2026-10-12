@@ -1,0 +1,12 @@
+name: screen-eligibility
+description: Compare supplied applicant facts with explicit program criteria for preliminary screening.
+input_schema:
+  type: object
+  properties:
+    program:
+      type: object
+    applicant:
+      type: object
+  required:
+    - program
+    - applicant

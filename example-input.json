@@ -1,0 +1,15 @@
+{
+  "program": {
+    "name": "Example Service",
+    "criteria": [
+      {
+        "id": "residency",
+        "description": "Must reside in the service area",
+        "required_value": "local"
+      }
+    ]
+  },
+  "applicant": {
+    "residency": "unknown"
+  }
+}
